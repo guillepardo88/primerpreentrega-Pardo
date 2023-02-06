@@ -1,0 +1,22 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    list-style: none;
+}
+
+span{
+    margin-right: 50px;
+}
