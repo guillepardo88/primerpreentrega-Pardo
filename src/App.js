@@ -1,14 +1,16 @@
 import React from "react";
-import Header from "./componentes/Header"
-import {Nombre} from "../src/componentes/ItemListContainer"
+import Header from "./componentes/Header";
+import {Nombre} from "../src/componentes/ItemListContainer";
+import BotonCantidad from "../src/componentes/BotonCantidad";
 
 const App = () => {
 
   return (
   <>
   <Header>
-    <Nombre />
   </Header>
+  <Nombre />
+  <BotonCantidad />
   </>
   )
 }

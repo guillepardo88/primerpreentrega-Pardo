@@ -1,14 +1,14 @@
 import React from "react";
 import logo from "../img/logo.png"
 import carrito from "../img/carrito.png"
-import header from "../componentes/estilos/Header.css"
+import "../componentes/estilos/Header.css"
 
-const Header = (children) => {
+const Header = ({children}) => {
     return (
         <div className="contenedor"> 
             <img src={logo} alt="logo tienda" />
             <h1>Electro Boom</h1>
-            {/* {children} */}
+            {children}
             <nav>
                 <ul>
                     <li><a href="">Nosotros</a></li>
